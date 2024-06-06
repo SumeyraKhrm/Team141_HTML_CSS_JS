@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumeyra KAHRAMAN - Contact Me !</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
 
@@ -19,8 +21,8 @@
         <div class ="section"> 
             <div class ="card"> 
                 <div class="left">
-                    <form action="saveToDb.aspx" >
-
+                    <form action="saveToDb.aspx">
+                        <br>
                         <div class="form-row" id="firstname">
                             <label for="firstname"> Firstname:</label>
                         </div> <input type="text" name="firstname">
@@ -35,7 +37,16 @@
 
                         <div class="form-row">
                             <label for="phone"> Phone: </label> 
-                        </div><input type="tel" name="phone">
+                        </div><input type="tel" name="phone" placeholder="+335322121212">
+
+                        <div class="form-row" id="city">
+                            <select name="city">
+                              <option value="1">Istanbul</option>
+                              <option value="2">Ankara</option>
+                              <option value="3">Izmir</option>
+                              <option value="4">Kırıkkale</option>
+                            </select>
+                          </div>
 >
                         <div class="form-row">
                             <label for="message"> Your Message:</label> 
@@ -53,7 +64,7 @@
 
     
     <div  class="footer">
-        <hr>
+        
     
         <div class="phone"><a href="tel:+3398999999"> Telefon </a>  </div>
         <div class="email"> <a href="mailto:sumeyra.khrm@outlook.com"> E-mail </a> </div>
